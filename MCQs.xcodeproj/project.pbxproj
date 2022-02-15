@@ -7,8 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CAB4FB4AEA60699D96E6CFE /* Pods_MCQsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42494030F495B66994ACBE0F /* Pods_MCQsTests.framework */; };
+		2459D9C14775802882236C96 /* Pods_MCQs_MCQsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6C077B8B24B651A07A9F9A /* Pods_MCQs_MCQsUITests.framework */; };
+		BE2184A027B970F6008C3276 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE21849F27B970F6008C3276 /* ViewModel.swift */; };
+		BE2184A427B973BD008C3276 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184A327B973BD008C3276 /* EndPoint.swift */; };
+		BE2184A627BA0F7C008C3276 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184A527BA0F7C008C3276 /* APIManager.swift */; };
+		BE2184A827BA1426008C3276 /* MCQsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184A727BA1426008C3276 /* MCQsAPI.swift */; };
+		BE2184AA27BB91B9008C3276 /* SubmissionDatabaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184A927BB91B9008C3276 /* SubmissionDatabaseObject.swift */; };
+		BE2184AC27BB9F3E008C3276 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184AB27BB9F3E008C3276 /* ResultsViewController.swift */; };
+		BE2184AE27BBA138008C3276 /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184AD27BBA137008C3276 /* ResultsViewModel.swift */; };
+		BE2184C027BBBF57008C3276 /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184BF27BBBF57008C3276 /* QuestionType.swift */; };
+		BE2184C327BBBF7F008C3276 /* ViewModelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184C227BBBF7F008C3276 /* ViewModelError.swift */; };
+		BE2184C527BBBFE7008C3276 /* QuestionsDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184C427BBBFE7008C3276 /* QuestionsDto.swift */; };
+		BE2184C827BBC024008C3276 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184C727BBC024008C3276 /* QuestionModel.swift */; };
+		BE2184CB27BBC1EF008C3276 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184CA27BBC1EF008C3276 /* SceneDelegate.swift */; };
+		BE2184CD27BBC36C008C3276 /* UIVIewController + Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2184CC27BBC36C008C3276 /* UIVIewController + Alert.swift */; };
+		BE2184CF27BBC848008C3276 /* Celebration.json in Resources */ = {isa = PBXBuildFile; fileRef = BE2184CE27BBC848008C3276 /* Celebration.json */; };
 		BEB67A0A27B50BCC008B1750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67A0927B50BCC008B1750 /* AppDelegate.swift */; };
-		BEB67A0C27B50BCD008B1750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67A0B27B50BCD008B1750 /* SceneDelegate.swift */; };
 		BEB67A0E27B50BCD008B1750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67A0D27B50BCD008B1750 /* ViewController.swift */; };
 		BEB67A1127B50BCD008B1750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB67A0F27B50BCD008B1750 /* Main.storyboard */; };
 		BEB67A1327B50BCF008B1750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB67A1227B50BCF008B1750 /* Assets.xcassets */; };
@@ -16,6 +31,93 @@
 		BEB67A2127B50BCF008B1750 /* MCQsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67A2027B50BCF008B1750 /* MCQsTests.swift */; };
 		BEB67A2B27B50BCF008B1750 /* MCQsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67A2A27B50BCF008B1750 /* MCQsUITests.swift */; };
 		BEB67A2D27B50BCF008B1750 /* MCQsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67A2C27B50BCF008B1750 /* MCQsUITestsLaunchTests.swift */; };
+		BEB67A3B27B50D83008B1750 /* MCQCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67A3927B50D83008B1750 /* MCQCollectionViewCell.swift */; };
+		BEB67A3C27B50D83008B1750 /* MCQCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB67A3A27B50D83008B1750 /* MCQCollectionViewCell.xib */; };
+		BEB67A3F27B50E1F008B1750 /* MCQTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67A3D27B50E1F008B1750 /* MCQTableViewCell.swift */; };
+		BEB67A4027B50E1F008B1750 /* MCQTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB67A3E27B50E1F008B1750 /* MCQTableViewCell.xib */; };
+		BECBC1E627B53B5400867DD8 /* KatexMathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBC1E527B53B5400867DD8 /* KatexMathView.swift */; };
+		BECBC23B27B53E3A00867DD8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1E827B53E3900867DD8 /* index.html */; };
+		BECBC23C27B53E3A00867DD8 /* katex.css in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1E927B53E3900867DD8 /* katex.css */; };
+		BECBC23D27B53E3A00867DD8 /* katex.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1EA27B53E3900867DD8 /* katex.js */; };
+		BECBC23E27B53E3A00867DD8 /* mhchem.mjs in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1EC27B53E3900867DD8 /* mhchem.mjs */; };
+		BECBC23F27B53E3A00867DD8 /* mathtex-script-type.mjs in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1ED27B53E3900867DD8 /* mathtex-script-type.mjs */; };
+		BECBC24027B53E3A00867DD8 /* auto-render.mjs in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1EE27B53E3900867DD8 /* auto-render.mjs */; };
+		BECBC24127B53E3A00867DD8 /* auto-render.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1EF27B53E3900867DD8 /* auto-render.min.js */; };
+		BECBC24227B53E3A00867DD8 /* copy-tex.mjs in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F027B53E3900867DD8 /* copy-tex.mjs */; };
+		BECBC24327B53E3A00867DD8 /* auto-render.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F127B53E3900867DD8 /* auto-render.js */; };
+		BECBC24427B53E3A00867DD8 /* mathtex-script-type.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F227B53E3900867DD8 /* mathtex-script-type.min.js */; };
+		BECBC24527B53E3A00867DD8 /* copy-tex.css in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F327B53E3900867DD8 /* copy-tex.css */; };
+		BECBC24627B53E3A00867DD8 /* copy-tex.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F427B53E3900867DD8 /* copy-tex.min.js */; };
+		BECBC24727B53E3A00867DD8 /* copy-tex.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F527B53E3900867DD8 /* copy-tex.js */; };
+		BECBC24827B53E3A00867DD8 /* mathtex-script-type.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F627B53E3900867DD8 /* mathtex-script-type.js */; };
+		BECBC24927B53E3A00867DD8 /* mhchem.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F727B53E3900867DD8 /* mhchem.min.js */; };
+		BECBC24A27B53E3A00867DD8 /* mhchem.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F827B53E3900867DD8 /* mhchem.js */; };
+		BECBC24B27B53E3A00867DD8 /* copy-tex.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1F927B53E3900867DD8 /* copy-tex.min.css */; };
+		BECBC24C27B53E3A00867DD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1FA27B53E3900867DD8 /* README.md */; };
+		BECBC24D27B53E3A00867DD8 /* katex.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1FB27B53E3900867DD8 /* katex.min.css */; };
+		BECBC24E27B53E3A00867DD8 /* katex.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1FC27B53E3900867DD8 /* katex.min.js */; };
+		BECBC24F27B53E3A00867DD8 /* KaTeX_Typewriter-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1FE27B53E3900867DD8 /* KaTeX_Typewriter-Regular.woff2 */; };
+		BECBC25027B53E3A00867DD8 /* KaTeX_Main-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC1FF27B53E3900867DD8 /* KaTeX_Main-Regular.woff */; };
+		BECBC25127B53E3A00867DD8 /* KaTeX_AMS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20027B53E3900867DD8 /* KaTeX_AMS-Regular.ttf */; };
+		BECBC25227B53E3A00867DD8 /* KaTeX_Main-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20127B53E3900867DD8 /* KaTeX_Main-BoldItalic.woff */; };
+		BECBC25327B53E3A00867DD8 /* KaTeX_AMS-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20227B53E3900867DD8 /* KaTeX_AMS-Regular.woff2 */; };
+		BECBC25427B53E3A00867DD8 /* KaTeX_Size3-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20327B53E3900867DD8 /* KaTeX_Size3-Regular.woff2 */; };
+		BECBC25527B53E3A00867DD8 /* KaTeX_Main-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20427B53E3900867DD8 /* KaTeX_Main-Regular.woff2 */; };
+		BECBC25627B53E3A00867DD8 /* KaTeX_Script-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20527B53E3900867DD8 /* KaTeX_Script-Regular.ttf */; };
+		BECBC25727B53E3A00867DD8 /* KaTeX_Caligraphic-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20627B53E3900867DD8 /* KaTeX_Caligraphic-Bold.woff2 */; };
+		BECBC25827B53E3A00867DD8 /* KaTeX_Size3-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20727B53E3900867DD8 /* KaTeX_Size3-Regular.ttf */; };
+		BECBC25927B53E3A00867DD8 /* KaTeX_Typewriter-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20827B53E3900867DD8 /* KaTeX_Typewriter-Regular.woff */; };
+		BECBC25A27B53E3A00867DD8 /* KaTeX_Caligraphic-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20927B53E3900867DD8 /* KaTeX_Caligraphic-Regular.woff */; };
+		BECBC25B27B53E3A00867DD8 /* KaTeX_Typewriter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20A27B53E3900867DD8 /* KaTeX_Typewriter-Regular.ttf */; };
+		BECBC25C27B53E3A00867DD8 /* KaTeX_Main-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20B27B53E3900867DD8 /* KaTeX_Main-Italic.woff */; };
+		BECBC25D27B53E3A00867DD8 /* KaTeX_Caligraphic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20C27B53E3900867DD8 /* KaTeX_Caligraphic-Bold.ttf */; };
+		BECBC25E27B53E3A00867DD8 /* KaTeX_SansSerif-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20D27B53E3900867DD8 /* KaTeX_SansSerif-Bold.woff2 */; };
+		BECBC25F27B53E3A00867DD8 /* KaTeX_Math-Italic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20E27B53E3900867DD8 /* KaTeX_Math-Italic.woff2 */; };
+		BECBC26027B53E3A00867DD8 /* KaTeX_Size4-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC20F27B53E3900867DD8 /* KaTeX_Size4-Regular.woff2 */; };
+		BECBC26127B53E3A00867DD8 /* KaTeX_Fraktur-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21027B53E3900867DD8 /* KaTeX_Fraktur-Bold.woff2 */; };
+		BECBC26227B53E3A00867DD8 /* KaTeX_Caligraphic-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21127B53E3900867DD8 /* KaTeX_Caligraphic-Bold.woff */; };
+		BECBC26327B53E3A00867DD8 /* KaTeX_SansSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21227B53E3900867DD8 /* KaTeX_SansSerif-Bold.ttf */; };
+		BECBC26427B53E3A00867DD8 /* KaTeX_Fraktur-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21327B53E3900867DD8 /* KaTeX_Fraktur-Regular.woff */; };
+		BECBC26527B53E3A00867DD8 /* KaTeX_Main-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21427B53E3900867DD8 /* KaTeX_Main-Bold.ttf */; };
+		BECBC26627B53E3A00867DD8 /* KaTeX_SansSerif-Italic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21527B53E3900867DD8 /* KaTeX_SansSerif-Italic.woff2 */; };
+		BECBC26727B53E3A00867DD8 /* KaTeX_Main-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21627B53E3900867DD8 /* KaTeX_Main-Bold.woff2 */; };
+		BECBC26827B53E3A00867DD8 /* KaTeX_SansSerif-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21727B53E3900867DD8 /* KaTeX_SansSerif-Regular.woff2 */; };
+		BECBC26927B53E3A00867DD8 /* KaTeX_Fraktur-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21827B53E3900867DD8 /* KaTeX_Fraktur-Regular.ttf */; };
+		BECBC26A27B53E3A00867DD8 /* KaTeX_Main-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21927B53E3900867DD8 /* KaTeX_Main-Regular.ttf */; };
+		BECBC26B27B53E3A00867DD8 /* KaTeX_Size2-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21A27B53E3900867DD8 /* KaTeX_Size2-Regular.woff */; };
+		BECBC26C27B53E3A00867DD8 /* KaTeX_Main-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21B27B53E3900867DD8 /* KaTeX_Main-BoldItalic.woff2 */; };
+		BECBC26D27B53E3A00867DD8 /* KaTeX_Fraktur-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21C27B53E3900867DD8 /* KaTeX_Fraktur-Regular.woff2 */; };
+		BECBC26E27B53E3A00867DD8 /* KaTeX_Script-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21D27B53E3900867DD8 /* KaTeX_Script-Regular.woff2 */; };
+		BECBC26F27B53E3A00867DD8 /* KaTeX_Size4-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21E27B53E3900867DD8 /* KaTeX_Size4-Regular.woff */; };
+		BECBC27027B53E3A00867DD8 /* KaTeX_Size3-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC21F27B53E3900867DD8 /* KaTeX_Size3-Regular.woff */; };
+		BECBC27127B53E3A00867DD8 /* KaTeX_AMS-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22027B53E3900867DD8 /* KaTeX_AMS-Regular.woff */; };
+		BECBC27227B53E3A00867DD8 /* KaTeX_Main-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22127B53E3900867DD8 /* KaTeX_Main-Bold.woff */; };
+		BECBC27327B53E3A00867DD8 /* KaTeX_SansSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22227B53E3900867DD8 /* KaTeX_SansSerif-Italic.ttf */; };
+		BECBC27427B53E3A00867DD8 /* KaTeX_Math-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22327B53E3900867DD8 /* KaTeX_Math-Italic.ttf */; };
+		BECBC27527B53E3A00867DD8 /* KaTeX_Size1-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22427B53E3900867DD8 /* KaTeX_Size1-Regular.woff */; };
+		BECBC27627B53E3A00867DD8 /* KaTeX_SansSerif-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22527B53E3900867DD8 /* KaTeX_SansSerif-Regular.woff */; };
+		BECBC27727B53E3A00867DD8 /* KaTeX_Main-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22627B53E3900867DD8 /* KaTeX_Main-Italic.ttf */; };
+		BECBC27827B53E3A00867DD8 /* KaTeX_Math-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22727B53E3900867DD8 /* KaTeX_Math-Italic.woff */; };
+		BECBC27927B53E3A00867DD8 /* KaTeX_Math-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22827B53E3900867DD8 /* KaTeX_Math-BoldItalic.woff2 */; };
+		BECBC27A27B53E3A00867DD8 /* KaTeX_Fraktur-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22927B53E3900867DD8 /* KaTeX_Fraktur-Bold.ttf */; };
+		BECBC27B27B53E3A00867DD8 /* KaTeX_Size2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22A27B53E3900867DD8 /* KaTeX_Size2-Regular.ttf */; };
+		BECBC27C27B53E3A00867DD8 /* KaTeX_SansSerif-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22B27B53E3900867DD8 /* KaTeX_SansSerif-Italic.woff */; };
+		BECBC27D27B53E3A00867DD8 /* KaTeX_Main-Italic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22C27B53E3900867DD8 /* KaTeX_Main-Italic.woff2 */; };
+		BECBC27E27B53E3A00867DD8 /* KaTeX_Size1-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22D27B53E3900867DD8 /* KaTeX_Size1-Regular.woff2 */; };
+		BECBC27F27B53E3A00867DD8 /* KaTeX_Fraktur-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22E27B53E3900867DD8 /* KaTeX_Fraktur-Bold.woff */; };
+		BECBC28027B53E3A00867DD8 /* KaTeX_Script-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC22F27B53E3900867DD8 /* KaTeX_Script-Regular.woff */; };
+		BECBC28127B53E3A00867DD8 /* KaTeX_SansSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23027B53E3900867DD8 /* KaTeX_SansSerif-Regular.ttf */; };
+		BECBC28227B53E3A00867DD8 /* KaTeX_Math-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23127B53E3900867DD8 /* KaTeX_Math-BoldItalic.woff */; };
+		BECBC28327B53E3A00867DD8 /* KaTeX_Size1-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23227B53E3900867DD8 /* KaTeX_Size1-Regular.ttf */; };
+		BECBC28427B53E3A00867DD8 /* KaTeX_Caligraphic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23327B53E3900867DD8 /* KaTeX_Caligraphic-Regular.ttf */; };
+		BECBC28527B53E3A00867DD8 /* KaTeX_Size4-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23427B53E3900867DD8 /* KaTeX_Size4-Regular.ttf */; };
+		BECBC28627B53E3A00867DD8 /* KaTeX_Size2-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23527B53E3900867DD8 /* KaTeX_Size2-Regular.woff2 */; };
+		BECBC28727B53E3A00867DD8 /* KaTeX_Caligraphic-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23627B53E3900867DD8 /* KaTeX_Caligraphic-Regular.woff2 */; };
+		BECBC28827B53E3A00867DD8 /* KaTeX_Main-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23727B53E3900867DD8 /* KaTeX_Main-BoldItalic.ttf */; };
+		BECBC28927B53E3A00867DD8 /* KaTeX_SansSerif-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23827B53E3A00867DD8 /* KaTeX_SansSerif-Bold.woff */; };
+		BECBC28A27B53E3A00867DD8 /* KaTeX_Math-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23927B53E3A00867DD8 /* KaTeX_Math-BoldItalic.ttf */; };
+		BECBC28B27B53E3A00867DD8 /* katex.mjs in Resources */ = {isa = PBXBuildFile; fileRef = BECBC23A27B53E3A00867DD8 /* katex.mjs */; };
+		F99F7849AD65FE9049454AF2 /* Pods_MCQs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CEF2D0F24C6B8270A5DB95 /* Pods_MCQs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +138,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009945653C9F8389C7CE54F2 /* Pods-MCQs-MCQsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQs-MCQsUITests.release.xcconfig"; path = "Target Support Files/Pods-MCQs-MCQsUITests/Pods-MCQs-MCQsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42494030F495B66994ACBE0F /* Pods_MCQsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCQsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5937C89D81129C09A955882E /* Pods-MCQsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQsTests.release.xcconfig"; path = "Target Support Files/Pods-MCQsTests/Pods-MCQsTests.release.xcconfig"; sourceTree = "<group>"; };
+		7711D227EB8D02E515670A79 /* Pods-MCQsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQsTests.debug.xcconfig"; path = "Target Support Files/Pods-MCQsTests/Pods-MCQsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87F6737587325CE3E3BE2FBF /* Pods-MCQs-MCQsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQs-MCQsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MCQs-MCQsUITests/Pods-MCQs-MCQsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE21849F27B970F6008C3276 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		BE2184A327B973BD008C3276 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		BE2184A527BA0F7C008C3276 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BE2184A727BA1426008C3276 /* MCQsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQsAPI.swift; sourceTree = "<group>"; };
+		BE2184A927BB91B9008C3276 /* SubmissionDatabaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionDatabaseObject.swift; sourceTree = "<group>"; };
+		BE2184AB27BB9F3E008C3276 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		BE2184AD27BBA137008C3276 /* ResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
+		BE2184BF27BBBF57008C3276 /* QuestionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
+		BE2184C227BBBF7F008C3276 /* ViewModelError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelError.swift; sourceTree = "<group>"; };
+		BE2184C427BBBFE7008C3276 /* QuestionsDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsDto.swift; sourceTree = "<group>"; };
+		BE2184C727BBC024008C3276 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		BE2184CA27BBC1EF008C3276 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE2184CC27BBC36C008C3276 /* UIVIewController + Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController + Alert.swift"; sourceTree = "<group>"; };
+		BE2184CE27BBC848008C3276 /* Celebration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Celebration.json; sourceTree = "<group>"; };
 		BEB67A0627B50BCC008B1750 /* MCQs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCQs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB67A0927B50BCC008B1750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEB67A0B27B50BCD008B1750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BEB67A0D27B50BCD008B1750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEB67A1027B50BCD008B1750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEB67A1227B50BCF008B1750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +169,96 @@
 		BEB67A2627B50BCF008B1750 /* MCQsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCQsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB67A2A27B50BCF008B1750 /* MCQsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQsUITests.swift; sourceTree = "<group>"; };
 		BEB67A2C27B50BCF008B1750 /* MCQsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEB67A3927B50D83008B1750 /* MCQCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEB67A3A27B50D83008B1750 /* MCQCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MCQCollectionViewCell.xib; sourceTree = "<group>"; };
+		BEB67A3D27B50E1F008B1750 /* MCQTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQTableViewCell.swift; sourceTree = "<group>"; };
+		BEB67A3E27B50E1F008B1750 /* MCQTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MCQTableViewCell.xib; sourceTree = "<group>"; };
+		BECBC1E527B53B5400867DD8 /* KatexMathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatexMathView.swift; sourceTree = "<group>"; };
+		BECBC1E827B53E3900867DD8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		BECBC1E927B53E3900867DD8 /* katex.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = katex.css; sourceTree = "<group>"; };
+		BECBC1EA27B53E3900867DD8 /* katex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = katex.js; sourceTree = "<group>"; };
+		BECBC1EC27B53E3900867DD8 /* mhchem.mjs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mhchem.mjs; sourceTree = "<group>"; };
+		BECBC1ED27B53E3900867DD8 /* mathtex-script-type.mjs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mathtex-script-type.mjs"; sourceTree = "<group>"; };
+		BECBC1EE27B53E3900867DD8 /* auto-render.mjs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "auto-render.mjs"; sourceTree = "<group>"; };
+		BECBC1EF27B53E3900867DD8 /* auto-render.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "auto-render.min.js"; sourceTree = "<group>"; };
+		BECBC1F027B53E3900867DD8 /* copy-tex.mjs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "copy-tex.mjs"; sourceTree = "<group>"; };
+		BECBC1F127B53E3900867DD8 /* auto-render.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "auto-render.js"; sourceTree = "<group>"; };
+		BECBC1F227B53E3900867DD8 /* mathtex-script-type.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mathtex-script-type.min.js"; sourceTree = "<group>"; };
+		BECBC1F327B53E3900867DD8 /* copy-tex.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "copy-tex.css"; sourceTree = "<group>"; };
+		BECBC1F427B53E3900867DD8 /* copy-tex.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "copy-tex.min.js"; sourceTree = "<group>"; };
+		BECBC1F527B53E3900867DD8 /* copy-tex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "copy-tex.js"; sourceTree = "<group>"; };
+		BECBC1F627B53E3900867DD8 /* mathtex-script-type.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mathtex-script-type.js"; sourceTree = "<group>"; };
+		BECBC1F727B53E3900867DD8 /* mhchem.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mhchem.min.js; sourceTree = "<group>"; };
+		BECBC1F827B53E3900867DD8 /* mhchem.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mhchem.js; sourceTree = "<group>"; };
+		BECBC1F927B53E3900867DD8 /* copy-tex.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "copy-tex.min.css"; sourceTree = "<group>"; };
+		BECBC1FA27B53E3900867DD8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BECBC1FB27B53E3900867DD8 /* katex.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = katex.min.css; sourceTree = "<group>"; };
+		BECBC1FC27B53E3900867DD8 /* katex.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = katex.min.js; sourceTree = "<group>"; };
+		BECBC1FE27B53E3900867DD8 /* KaTeX_Typewriter-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Typewriter-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC1FF27B53E3900867DD8 /* KaTeX_Main-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Regular.woff"; sourceTree = "<group>"; };
+		BECBC20027B53E3900867DD8 /* KaTeX_AMS-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_AMS-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC20127B53E3900867DD8 /* KaTeX_Main-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-BoldItalic.woff"; sourceTree = "<group>"; };
+		BECBC20227B53E3900867DD8 /* KaTeX_AMS-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_AMS-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC20327B53E3900867DD8 /* KaTeX_Size3-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size3-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC20427B53E3900867DD8 /* KaTeX_Main-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC20527B53E3900867DD8 /* KaTeX_Script-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Script-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC20627B53E3900867DD8 /* KaTeX_Caligraphic-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Caligraphic-Bold.woff2"; sourceTree = "<group>"; };
+		BECBC20727B53E3900867DD8 /* KaTeX_Size3-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size3-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC20827B53E3900867DD8 /* KaTeX_Typewriter-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Typewriter-Regular.woff"; sourceTree = "<group>"; };
+		BECBC20927B53E3900867DD8 /* KaTeX_Caligraphic-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Caligraphic-Regular.woff"; sourceTree = "<group>"; };
+		BECBC20A27B53E3900867DD8 /* KaTeX_Typewriter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Typewriter-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC20B27B53E3900867DD8 /* KaTeX_Main-Italic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Italic.woff"; sourceTree = "<group>"; };
+		BECBC20C27B53E3900867DD8 /* KaTeX_Caligraphic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Caligraphic-Bold.ttf"; sourceTree = "<group>"; };
+		BECBC20D27B53E3900867DD8 /* KaTeX_SansSerif-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_SansSerif-Bold.woff2"; sourceTree = "<group>"; };
+		BECBC20E27B53E3900867DD8 /* KaTeX_Math-Italic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Italic.woff2"; sourceTree = "<group>"; };
+		BECBC20F27B53E3900867DD8 /* KaTeX_Size4-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size4-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC21027B53E3900867DD8 /* KaTeX_Fraktur-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Fraktur-Bold.woff2"; sourceTree = "<group>"; };
+		BECBC21127B53E3900867DD8 /* KaTeX_Caligraphic-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Caligraphic-Bold.woff"; sourceTree = "<group>"; };
+		BECBC21227B53E3900867DD8 /* KaTeX_SansSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_SansSerif-Bold.ttf"; sourceTree = "<group>"; };
+		BECBC21327B53E3900867DD8 /* KaTeX_Fraktur-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Fraktur-Regular.woff"; sourceTree = "<group>"; };
+		BECBC21427B53E3900867DD8 /* KaTeX_Main-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Bold.ttf"; sourceTree = "<group>"; };
+		BECBC21527B53E3900867DD8 /* KaTeX_SansSerif-Italic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_SansSerif-Italic.woff2"; sourceTree = "<group>"; };
+		BECBC21627B53E3900867DD8 /* KaTeX_Main-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Bold.woff2"; sourceTree = "<group>"; };
+		BECBC21727B53E3900867DD8 /* KaTeX_SansSerif-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_SansSerif-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC21827B53E3900867DD8 /* KaTeX_Fraktur-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Fraktur-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC21927B53E3900867DD8 /* KaTeX_Main-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC21A27B53E3900867DD8 /* KaTeX_Size2-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size2-Regular.woff"; sourceTree = "<group>"; };
+		BECBC21B27B53E3900867DD8 /* KaTeX_Main-BoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-BoldItalic.woff2"; sourceTree = "<group>"; };
+		BECBC21C27B53E3900867DD8 /* KaTeX_Fraktur-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Fraktur-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC21D27B53E3900867DD8 /* KaTeX_Script-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Script-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC21E27B53E3900867DD8 /* KaTeX_Size4-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size4-Regular.woff"; sourceTree = "<group>"; };
+		BECBC21F27B53E3900867DD8 /* KaTeX_Size3-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size3-Regular.woff"; sourceTree = "<group>"; };
+		BECBC22027B53E3900867DD8 /* KaTeX_AMS-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_AMS-Regular.woff"; sourceTree = "<group>"; };
+		BECBC22127B53E3900867DD8 /* KaTeX_Main-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Bold.woff"; sourceTree = "<group>"; };
+		BECBC22227B53E3900867DD8 /* KaTeX_SansSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_SansSerif-Italic.ttf"; sourceTree = "<group>"; };
+		BECBC22327B53E3900867DD8 /* KaTeX_Math-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Italic.ttf"; sourceTree = "<group>"; };
+		BECBC22427B53E3900867DD8 /* KaTeX_Size1-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size1-Regular.woff"; sourceTree = "<group>"; };
+		BECBC22527B53E3900867DD8 /* KaTeX_SansSerif-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_SansSerif-Regular.woff"; sourceTree = "<group>"; };
+		BECBC22627B53E3900867DD8 /* KaTeX_Main-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Italic.ttf"; sourceTree = "<group>"; };
+		BECBC22727B53E3900867DD8 /* KaTeX_Math-Italic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Italic.woff"; sourceTree = "<group>"; };
+		BECBC22827B53E3900867DD8 /* KaTeX_Math-BoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-BoldItalic.woff2"; sourceTree = "<group>"; };
+		BECBC22927B53E3900867DD8 /* KaTeX_Fraktur-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Fraktur-Bold.ttf"; sourceTree = "<group>"; };
+		BECBC22A27B53E3900867DD8 /* KaTeX_Size2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size2-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC22B27B53E3900867DD8 /* KaTeX_SansSerif-Italic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_SansSerif-Italic.woff"; sourceTree = "<group>"; };
+		BECBC22C27B53E3900867DD8 /* KaTeX_Main-Italic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Italic.woff2"; sourceTree = "<group>"; };
+		BECBC22D27B53E3900867DD8 /* KaTeX_Size1-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size1-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC22E27B53E3900867DD8 /* KaTeX_Fraktur-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Fraktur-Bold.woff"; sourceTree = "<group>"; };
+		BECBC22F27B53E3900867DD8 /* KaTeX_Script-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Script-Regular.woff"; sourceTree = "<group>"; };
+		BECBC23027B53E3900867DD8 /* KaTeX_SansSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_SansSerif-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC23127B53E3900867DD8 /* KaTeX_Math-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-BoldItalic.woff"; sourceTree = "<group>"; };
+		BECBC23227B53E3900867DD8 /* KaTeX_Size1-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size1-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC23327B53E3900867DD8 /* KaTeX_Caligraphic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Caligraphic-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC23427B53E3900867DD8 /* KaTeX_Size4-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size4-Regular.ttf"; sourceTree = "<group>"; };
+		BECBC23527B53E3900867DD8 /* KaTeX_Size2-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size2-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC23627B53E3900867DD8 /* KaTeX_Caligraphic-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Caligraphic-Regular.woff2"; sourceTree = "<group>"; };
+		BECBC23727B53E3900867DD8 /* KaTeX_Main-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BECBC23827B53E3A00867DD8 /* KaTeX_SansSerif-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_SansSerif-Bold.woff"; sourceTree = "<group>"; };
+		BECBC23927B53E3A00867DD8 /* KaTeX_Math-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BECBC23A27B53E3A00867DD8 /* katex.mjs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = katex.mjs; sourceTree = "<group>"; };
+		C019A0BD13209120BD818CEA /* Pods-MCQs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQs.debug.xcconfig"; path = "Target Support Files/Pods-MCQs/Pods-MCQs.debug.xcconfig"; sourceTree = "<group>"; };
+		E3CEF2D0F24C6B8270A5DB95 /* Pods_MCQs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCQs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6C077B8B24B651A07A9F9A /* Pods_MCQs_MCQsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCQs_MCQsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D0EFCC37D6A64D2F1109D1 /* Pods-MCQs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQs.release.xcconfig"; path = "Target Support Files/Pods-MCQs/Pods-MCQs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +266,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99F7849AD65FE9049454AF2 /* Pods_MCQs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +274,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CAB4FB4AEA60699D96E6CFE /* Pods_MCQsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +282,204 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2459D9C14775802882236C96 /* Pods_MCQs_MCQsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15186B227FED3740E0FE125B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CEF2D0F24C6B8270A5DB95 /* Pods_MCQs.framework */,
+				EC6C077B8B24B651A07A9F9A /* Pods_MCQs_MCQsUITests.framework */,
+				42494030F495B66994ACBE0F /* Pods_MCQsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8E0DA6942375E794031EF7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C019A0BD13209120BD818CEA /* Pods-MCQs.debug.xcconfig */,
+				F9D0EFCC37D6A64D2F1109D1 /* Pods-MCQs.release.xcconfig */,
+				87F6737587325CE3E3BE2FBF /* Pods-MCQs-MCQsUITests.debug.xcconfig */,
+				009945653C9F8389C7CE54F2 /* Pods-MCQs-MCQsUITests.release.xcconfig */,
+				7711D227EB8D02E515670A79 /* Pods-MCQsTests.debug.xcconfig */,
+				5937C89D81129C09A955882E /* Pods-MCQsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE2184AF27BBBB0A008C3276 /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184B327BBBB76008C3276 /* TableViewCell */,
+				BE2184B227BBBB48008C3276 /* CollectionViewCell */,
+				BE2184B027BBBB30008C3276 /* ViewModel */,
+				BE2184B127BBBB39008C3276 /* Controller */,
+				BE2184B527BBBC04008C3276 /* API */,
+				BE2184C127BBBF5C008C3276 /* Enums */,
+				BE2184C627BBC002008C3276 /* DTO */,
+				BE2184C927BBC03E008C3276 /* Model */,
+			);
+			path = TestViewController;
+			sourceTree = "<group>";
+		};
+		BE2184B027BBBB30008C3276 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE21849F27B970F6008C3276 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BE2184B127BBBB39008C3276 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEB67A0D27B50BCD008B1750 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE2184B227BBBB48008C3276 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BEB67A3927B50D83008B1750 /* MCQCollectionViewCell.swift */,
+				BEB67A3A27B50D83008B1750 /* MCQCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		BE2184B327BBBB76008C3276 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BEB67A3D27B50E1F008B1750 /* MCQTableViewCell.swift */,
+				BEB67A3E27B50E1F008B1750 /* MCQTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		BE2184B427BBBBDC008C3276 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184A327B973BD008C3276 /* EndPoint.swift */,
+				BE2184A527BA0F7C008C3276 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		BE2184B527BBBC04008C3276 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184A727BA1426008C3276 /* MCQsAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BE2184B627BBBC3C008C3276 /* ResultController */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184AB27BB9F3E008C3276 /* ResultsViewController.swift */,
+				BE2184AD27BBA137008C3276 /* ResultsViewModel.swift */,
+			);
+			path = ResultController;
+			sourceTree = "<group>";
+		};
+		BE2184B727BBBD71008C3276 /* Database Objects */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184A927BB91B9008C3276 /* SubmissionDatabaseObject.swift */,
+			);
+			path = "Database Objects";
+			sourceTree = "<group>";
+		};
+		BE2184B827BBBD86008C3276 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184BC27BBBDD7008C3276 /* Latex */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BE2184B927BBBD9A008C3276 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184CA27BBC1EF008C3276 /* SceneDelegate.swift */,
+				BEB67A0927B50BCC008B1750 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BE2184BA27BBBDB1008C3276 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184B627BBBC3C008C3276 /* ResultController */,
+				BE2184AF27BBBB0A008C3276 /* TestViewController */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BE2184BC27BBBDD7008C3276 /* Latex */ = {
+			isa = PBXGroup;
+			children = (
+				BECBC1E527B53B5400867DD8 /* KatexMathView.swift */,
+			);
+			path = Latex;
+			sourceTree = "<group>";
+		};
+		BE2184C127BBBF5C008C3276 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184BF27BBBF57008C3276 /* QuestionType.swift */,
+				BE2184C227BBBF7F008C3276 /* ViewModelError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		BE2184C627BBC002008C3276 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184C427BBBFE7008C3276 /* QuestionsDto.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		BE2184C927BBC03E008C3276 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184C727BBC024008C3276 /* QuestionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE2184D027BBC903008C3276 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184CE27BBC848008C3276 /* Celebration.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE2184D127BBC942008C3276 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE2184CC27BBC36C008C3276 /* UIVIewController + Alert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		BEB679FD27B50BCC008B1750 = {
 			isa = PBXGroup;
 			children = (
+				BECBC1E727B53E3900867DD8 /* katex */,
 				BEB67A0827B50BCC008B1750 /* MCQs */,
 				BEB67A1F27B50BCF008B1750 /* MCQsTests */,
 				BEB67A2927B50BCF008B1750 /* MCQsUITests */,
 				BEB67A0727B50BCC008B1750 /* Products */,
+				B8E0DA6942375E794031EF7B /* Pods */,
+				15186B227FED3740E0FE125B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +496,13 @@
 		BEB67A0827B50BCC008B1750 /* MCQs */ = {
 			isa = PBXGroup;
 			children = (
-				BEB67A0927B50BCC008B1750 /* AppDelegate.swift */,
-				BEB67A0B27B50BCD008B1750 /* SceneDelegate.swift */,
-				BEB67A0D27B50BCD008B1750 /* ViewController.swift */,
+				BE2184D027BBC903008C3276 /* Resources */,
+				BE2184B927BBBD9A008C3276 /* AppDelegate */,
+				BE2184B827BBBD86008C3276 /* Common */,
+				BE2184B727BBBD71008C3276 /* Database Objects */,
+				BE2184B427BBBBDC008C3276 /* APIManager */,
+				BE2184BA27BBBDB1008C3276 /* Scenes */,
+				BE2184D127BBC942008C3276 /* Extensions */,
 				BEB67A0F27B50BCD008B1750 /* Main.storyboard */,
 				BEB67A1227B50BCF008B1750 /* Assets.xcassets */,
 				BEB67A1427B50BCF008B1750 /* LaunchScreen.storyboard */,
@@ -127,6 +528,110 @@
 			path = MCQsUITests;
 			sourceTree = "<group>";
 		};
+		BECBC1E727B53E3900867DD8 /* katex */ = {
+			isa = PBXGroup;
+			children = (
+				BECBC1E827B53E3900867DD8 /* index.html */,
+				BECBC1E927B53E3900867DD8 /* katex.css */,
+				BECBC1EA27B53E3900867DD8 /* katex.js */,
+				BECBC1EB27B53E3900867DD8 /* contrib */,
+				BECBC1FA27B53E3900867DD8 /* README.md */,
+				BECBC1FB27B53E3900867DD8 /* katex.min.css */,
+				BECBC1FC27B53E3900867DD8 /* katex.min.js */,
+				BECBC1FD27B53E3900867DD8 /* fonts */,
+				BECBC23A27B53E3A00867DD8 /* katex.mjs */,
+			);
+			path = katex;
+			sourceTree = "<group>";
+		};
+		BECBC1EB27B53E3900867DD8 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				BECBC1EC27B53E3900867DD8 /* mhchem.mjs */,
+				BECBC1ED27B53E3900867DD8 /* mathtex-script-type.mjs */,
+				BECBC1EE27B53E3900867DD8 /* auto-render.mjs */,
+				BECBC1EF27B53E3900867DD8 /* auto-render.min.js */,
+				BECBC1F027B53E3900867DD8 /* copy-tex.mjs */,
+				BECBC1F127B53E3900867DD8 /* auto-render.js */,
+				BECBC1F227B53E3900867DD8 /* mathtex-script-type.min.js */,
+				BECBC1F327B53E3900867DD8 /* copy-tex.css */,
+				BECBC1F427B53E3900867DD8 /* copy-tex.min.js */,
+				BECBC1F527B53E3900867DD8 /* copy-tex.js */,
+				BECBC1F627B53E3900867DD8 /* mathtex-script-type.js */,
+				BECBC1F727B53E3900867DD8 /* mhchem.min.js */,
+				BECBC1F827B53E3900867DD8 /* mhchem.js */,
+				BECBC1F927B53E3900867DD8 /* copy-tex.min.css */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		BECBC1FD27B53E3900867DD8 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BECBC1FE27B53E3900867DD8 /* KaTeX_Typewriter-Regular.woff2 */,
+				BECBC1FF27B53E3900867DD8 /* KaTeX_Main-Regular.woff */,
+				BECBC20027B53E3900867DD8 /* KaTeX_AMS-Regular.ttf */,
+				BECBC20127B53E3900867DD8 /* KaTeX_Main-BoldItalic.woff */,
+				BECBC20227B53E3900867DD8 /* KaTeX_AMS-Regular.woff2 */,
+				BECBC20327B53E3900867DD8 /* KaTeX_Size3-Regular.woff2 */,
+				BECBC20427B53E3900867DD8 /* KaTeX_Main-Regular.woff2 */,
+				BECBC20527B53E3900867DD8 /* KaTeX_Script-Regular.ttf */,
+				BECBC20627B53E3900867DD8 /* KaTeX_Caligraphic-Bold.woff2 */,
+				BECBC20727B53E3900867DD8 /* KaTeX_Size3-Regular.ttf */,
+				BECBC20827B53E3900867DD8 /* KaTeX_Typewriter-Regular.woff */,
+				BECBC20927B53E3900867DD8 /* KaTeX_Caligraphic-Regular.woff */,
+				BECBC20A27B53E3900867DD8 /* KaTeX_Typewriter-Regular.ttf */,
+				BECBC20B27B53E3900867DD8 /* KaTeX_Main-Italic.woff */,
+				BECBC20C27B53E3900867DD8 /* KaTeX_Caligraphic-Bold.ttf */,
+				BECBC20D27B53E3900867DD8 /* KaTeX_SansSerif-Bold.woff2 */,
+				BECBC20E27B53E3900867DD8 /* KaTeX_Math-Italic.woff2 */,
+				BECBC20F27B53E3900867DD8 /* KaTeX_Size4-Regular.woff2 */,
+				BECBC21027B53E3900867DD8 /* KaTeX_Fraktur-Bold.woff2 */,
+				BECBC21127B53E3900867DD8 /* KaTeX_Caligraphic-Bold.woff */,
+				BECBC21227B53E3900867DD8 /* KaTeX_SansSerif-Bold.ttf */,
+				BECBC21327B53E3900867DD8 /* KaTeX_Fraktur-Regular.woff */,
+				BECBC21427B53E3900867DD8 /* KaTeX_Main-Bold.ttf */,
+				BECBC21527B53E3900867DD8 /* KaTeX_SansSerif-Italic.woff2 */,
+				BECBC21627B53E3900867DD8 /* KaTeX_Main-Bold.woff2 */,
+				BECBC21727B53E3900867DD8 /* KaTeX_SansSerif-Regular.woff2 */,
+				BECBC21827B53E3900867DD8 /* KaTeX_Fraktur-Regular.ttf */,
+				BECBC21927B53E3900867DD8 /* KaTeX_Main-Regular.ttf */,
+				BECBC21A27B53E3900867DD8 /* KaTeX_Size2-Regular.woff */,
+				BECBC21B27B53E3900867DD8 /* KaTeX_Main-BoldItalic.woff2 */,
+				BECBC21C27B53E3900867DD8 /* KaTeX_Fraktur-Regular.woff2 */,
+				BECBC21D27B53E3900867DD8 /* KaTeX_Script-Regular.woff2 */,
+				BECBC21E27B53E3900867DD8 /* KaTeX_Size4-Regular.woff */,
+				BECBC21F27B53E3900867DD8 /* KaTeX_Size3-Regular.woff */,
+				BECBC22027B53E3900867DD8 /* KaTeX_AMS-Regular.woff */,
+				BECBC22127B53E3900867DD8 /* KaTeX_Main-Bold.woff */,
+				BECBC22227B53E3900867DD8 /* KaTeX_SansSerif-Italic.ttf */,
+				BECBC22327B53E3900867DD8 /* KaTeX_Math-Italic.ttf */,
+				BECBC22427B53E3900867DD8 /* KaTeX_Size1-Regular.woff */,
+				BECBC22527B53E3900867DD8 /* KaTeX_SansSerif-Regular.woff */,
+				BECBC22627B53E3900867DD8 /* KaTeX_Main-Italic.ttf */,
+				BECBC22727B53E3900867DD8 /* KaTeX_Math-Italic.woff */,
+				BECBC22827B53E3900867DD8 /* KaTeX_Math-BoldItalic.woff2 */,
+				BECBC22927B53E3900867DD8 /* KaTeX_Fraktur-Bold.ttf */,
+				BECBC22A27B53E3900867DD8 /* KaTeX_Size2-Regular.ttf */,
+				BECBC22B27B53E3900867DD8 /* KaTeX_SansSerif-Italic.woff */,
+				BECBC22C27B53E3900867DD8 /* KaTeX_Main-Italic.woff2 */,
+				BECBC22D27B53E3900867DD8 /* KaTeX_Size1-Regular.woff2 */,
+				BECBC22E27B53E3900867DD8 /* KaTeX_Fraktur-Bold.woff */,
+				BECBC22F27B53E3900867DD8 /* KaTeX_Script-Regular.woff */,
+				BECBC23027B53E3900867DD8 /* KaTeX_SansSerif-Regular.ttf */,
+				BECBC23127B53E3900867DD8 /* KaTeX_Math-BoldItalic.woff */,
+				BECBC23227B53E3900867DD8 /* KaTeX_Size1-Regular.ttf */,
+				BECBC23327B53E3900867DD8 /* KaTeX_Caligraphic-Regular.ttf */,
+				BECBC23427B53E3900867DD8 /* KaTeX_Size4-Regular.ttf */,
+				BECBC23527B53E3900867DD8 /* KaTeX_Size2-Regular.woff2 */,
+				BECBC23627B53E3900867DD8 /* KaTeX_Caligraphic-Regular.woff2 */,
+				BECBC23727B53E3900867DD8 /* KaTeX_Main-BoldItalic.ttf */,
+				BECBC23827B53E3A00867DD8 /* KaTeX_SansSerif-Bold.woff */,
+				BECBC23927B53E3A00867DD8 /* KaTeX_Math-BoldItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +639,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEB67A3027B50BD0008B1750 /* Build configuration list for PBXNativeTarget "MCQs" */;
 			buildPhases = (
+				A4EA60EA8891828587544BF0 /* [CP] Check Pods Manifest.lock */,
 				BEB67A0227B50BCC008B1750 /* Sources */,
 				BEB67A0327B50BCC008B1750 /* Frameworks */,
 				BEB67A0427B50BCC008B1750 /* Resources */,
+				1E71D16527326B6FFD59F806 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +658,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEB67A3327B50BD0008B1750 /* Build configuration list for PBXNativeTarget "MCQsTests" */;
 			buildPhases = (
+				57EFC5A55A8168D85E2C8DE7 /* [CP] Check Pods Manifest.lock */,
 				BEB67A1827B50BCF008B1750 /* Sources */,
 				BEB67A1927B50BCF008B1750 /* Frameworks */,
 				BEB67A1A27B50BCF008B1750 /* Resources */,
@@ -169,9 +677,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEB67A3627B50BD0008B1750 /* Build configuration list for PBXNativeTarget "MCQsUITests" */;
 			buildPhases = (
+				4B646271692C021A3D3139F7 /* [CP] Check Pods Manifest.lock */,
 				BEB67A2227B50BCF008B1750 /* Sources */,
 				BEB67A2327B50BCF008B1750 /* Frameworks */,
 				BEB67A2427B50BCF008B1750 /* Resources */,
+				C0AC89193953B0EFCE0936AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +741,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECBC25B27B53E3A00867DD8 /* KaTeX_Typewriter-Regular.ttf in Resources */,
+				BECBC25E27B53E3A00867DD8 /* KaTeX_SansSerif-Bold.woff2 in Resources */,
+				BECBC26027B53E3A00867DD8 /* KaTeX_Size4-Regular.woff2 in Resources */,
+				BECBC27927B53E3A00867DD8 /* KaTeX_Math-BoldItalic.woff2 in Resources */,
+				BECBC23D27B53E3A00867DD8 /* katex.js in Resources */,
+				BECBC24427B53E3A00867DD8 /* mathtex-script-type.min.js in Resources */,
+				BECBC26627B53E3A00867DD8 /* KaTeX_SansSerif-Italic.woff2 in Resources */,
+				BECBC24327B53E3A00867DD8 /* auto-render.js in Resources */,
 				BEB67A1627B50BCF008B1750 /* LaunchScreen.storyboard in Resources */,
+				BECBC27B27B53E3A00867DD8 /* KaTeX_Size2-Regular.ttf in Resources */,
+				BECBC24B27B53E3A00867DD8 /* copy-tex.min.css in Resources */,
+				BECBC26427B53E3A00867DD8 /* KaTeX_Fraktur-Regular.woff in Resources */,
+				BEB67A4027B50E1F008B1750 /* MCQTableViewCell.xib in Resources */,
+				BECBC28727B53E3A00867DD8 /* KaTeX_Caligraphic-Regular.woff2 in Resources */,
+				BECBC27327B53E3A00867DD8 /* KaTeX_SansSerif-Italic.ttf in Resources */,
+				BECBC27027B53E3A00867DD8 /* KaTeX_Size3-Regular.woff in Resources */,
 				BEB67A1327B50BCF008B1750 /* Assets.xcassets in Resources */,
+				BECBC23B27B53E3A00867DD8 /* index.html in Resources */,
+				BECBC26127B53E3A00867DD8 /* KaTeX_Fraktur-Bold.woff2 in Resources */,
+				BECBC25C27B53E3A00867DD8 /* KaTeX_Main-Italic.woff in Resources */,
+				BECBC24C27B53E3A00867DD8 /* README.md in Resources */,
+				BECBC26F27B53E3A00867DD8 /* KaTeX_Size4-Regular.woff in Resources */,
+				BECBC26827B53E3A00867DD8 /* KaTeX_SansSerif-Regular.woff2 in Resources */,
+				BECBC24227B53E3A00867DD8 /* copy-tex.mjs in Resources */,
+				BECBC28B27B53E3A00867DD8 /* katex.mjs in Resources */,
+				BECBC28227B53E3A00867DD8 /* KaTeX_Math-BoldItalic.woff in Resources */,
+				BECBC25527B53E3A00867DD8 /* KaTeX_Main-Regular.woff2 in Resources */,
+				BECBC28127B53E3A00867DD8 /* KaTeX_SansSerif-Regular.ttf in Resources */,
+				BECBC24827B53E3A00867DD8 /* mathtex-script-type.js in Resources */,
+				BECBC24D27B53E3A00867DD8 /* katex.min.css in Resources */,
+				BECBC26227B53E3A00867DD8 /* KaTeX_Caligraphic-Bold.woff in Resources */,
+				BECBC28627B53E3A00867DD8 /* KaTeX_Size2-Regular.woff2 in Resources */,
+				BECBC27727B53E3A00867DD8 /* KaTeX_Main-Italic.ttf in Resources */,
+				BECBC27827B53E3A00867DD8 /* KaTeX_Math-Italic.woff in Resources */,
+				BECBC24127B53E3A00867DD8 /* auto-render.min.js in Resources */,
+				BECBC28427B53E3A00867DD8 /* KaTeX_Caligraphic-Regular.ttf in Resources */,
+				BECBC26727B53E3A00867DD8 /* KaTeX_Main-Bold.woff2 in Resources */,
+				BECBC23F27B53E3A00867DD8 /* mathtex-script-type.mjs in Resources */,
+				BECBC24F27B53E3A00867DD8 /* KaTeX_Typewriter-Regular.woff2 in Resources */,
+				BECBC27C27B53E3A00867DD8 /* KaTeX_SansSerif-Italic.woff in Resources */,
+				BECBC24A27B53E3A00867DD8 /* mhchem.js in Resources */,
+				BEB67A3C27B50D83008B1750 /* MCQCollectionViewCell.xib in Resources */,
+				BECBC28927B53E3A00867DD8 /* KaTeX_SansSerif-Bold.woff in Resources */,
+				BECBC27527B53E3A00867DD8 /* KaTeX_Size1-Regular.woff in Resources */,
+				BECBC27427B53E3A00867DD8 /* KaTeX_Math-Italic.ttf in Resources */,
+				BECBC26A27B53E3A00867DD8 /* KaTeX_Main-Regular.ttf in Resources */,
+				BECBC24727B53E3A00867DD8 /* copy-tex.js in Resources */,
+				BECBC24E27B53E3A00867DD8 /* katex.min.js in Resources */,
+				BECBC26327B53E3A00867DD8 /* KaTeX_SansSerif-Bold.ttf in Resources */,
+				BECBC25627B53E3A00867DD8 /* KaTeX_Script-Regular.ttf in Resources */,
+				BECBC26C27B53E3A00867DD8 /* KaTeX_Main-BoldItalic.woff2 in Resources */,
+				BECBC27F27B53E3A00867DD8 /* KaTeX_Fraktur-Bold.woff in Resources */,
+				BECBC25427B53E3A00867DD8 /* KaTeX_Size3-Regular.woff2 in Resources */,
+				BE2184CF27BBC848008C3276 /* Celebration.json in Resources */,
+				BECBC26527B53E3A00867DD8 /* KaTeX_Main-Bold.ttf in Resources */,
+				BECBC23E27B53E3A00867DD8 /* mhchem.mjs in Resources */,
+				BECBC25227B53E3A00867DD8 /* KaTeX_Main-BoldItalic.woff in Resources */,
+				BECBC27627B53E3A00867DD8 /* KaTeX_SansSerif-Regular.woff in Resources */,
+				BECBC24527B53E3A00867DD8 /* copy-tex.css in Resources */,
+				BECBC24027B53E3A00867DD8 /* auto-render.mjs in Resources */,
+				BECBC28A27B53E3A00867DD8 /* KaTeX_Math-BoldItalic.ttf in Resources */,
+				BECBC28027B53E3A00867DD8 /* KaTeX_Script-Regular.woff in Resources */,
+				BECBC24927B53E3A00867DD8 /* mhchem.min.js in Resources */,
+				BECBC25727B53E3A00867DD8 /* KaTeX_Caligraphic-Bold.woff2 in Resources */,
+				BECBC25A27B53E3A00867DD8 /* KaTeX_Caligraphic-Regular.woff in Resources */,
+				BECBC27227B53E3A00867DD8 /* KaTeX_Main-Bold.woff in Resources */,
+				BECBC28827B53E3A00867DD8 /* KaTeX_Main-BoldItalic.ttf in Resources */,
+				BECBC25D27B53E3A00867DD8 /* KaTeX_Caligraphic-Bold.ttf in Resources */,
+				BECBC28527B53E3A00867DD8 /* KaTeX_Size4-Regular.ttf in Resources */,
+				BECBC27127B53E3A00867DD8 /* KaTeX_AMS-Regular.woff in Resources */,
+				BECBC25027B53E3A00867DD8 /* KaTeX_Main-Regular.woff in Resources */,
+				BECBC23C27B53E3A00867DD8 /* katex.css in Resources */,
+				BECBC25127B53E3A00867DD8 /* KaTeX_AMS-Regular.ttf in Resources */,
+				BECBC26D27B53E3A00867DD8 /* KaTeX_Fraktur-Regular.woff2 in Resources */,
+				BECBC25F27B53E3A00867DD8 /* KaTeX_Math-Italic.woff2 in Resources */,
+				BECBC25927B53E3A00867DD8 /* KaTeX_Typewriter-Regular.woff in Resources */,
+				BECBC25327B53E3A00867DD8 /* KaTeX_AMS-Regular.woff2 in Resources */,
+				BECBC28327B53E3A00867DD8 /* KaTeX_Size1-Regular.ttf in Resources */,
 				BEB67A1127B50BCD008B1750 /* Main.storyboard in Resources */,
+				BECBC25827B53E3A00867DD8 /* KaTeX_Size3-Regular.ttf in Resources */,
+				BECBC24627B53E3A00867DD8 /* copy-tex.min.js in Resources */,
+				BECBC26E27B53E3A00867DD8 /* KaTeX_Script-Regular.woff2 in Resources */,
+				BECBC27A27B53E3A00867DD8 /* KaTeX_Fraktur-Bold.ttf in Resources */,
+				BECBC27D27B53E3A00867DD8 /* KaTeX_Main-Italic.woff2 in Resources */,
+				BECBC27E27B53E3A00867DD8 /* KaTeX_Size1-Regular.woff2 in Resources */,
+				BECBC26B27B53E3A00867DD8 /* KaTeX_Size2-Regular.woff in Resources */,
+				BECBC26927B53E3A00867DD8 /* KaTeX_Fraktur-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +847,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E71D16527326B6FFD59F806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MCQs/Pods-MCQs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MCQs/Pods-MCQs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MCQs/Pods-MCQs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B646271692C021A3D3139F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MCQs-MCQsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57EFC5A55A8168D85E2C8DE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MCQsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4EA60EA8891828587544BF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MCQs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AC89193953B0EFCE0936AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MCQs-MCQsUITests/Pods-MCQs-MCQsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MCQs-MCQsUITests/Pods-MCQs-MCQsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MCQs-MCQsUITests/Pods-MCQs-MCQsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEB67A0227B50BCC008B1750 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECBC1E627B53B5400867DD8 /* KatexMathView.swift in Sources */,
+				BE2184C027BBBF57008C3276 /* QuestionType.swift in Sources */,
+				BE2184AE27BBA138008C3276 /* ResultsViewModel.swift in Sources */,
 				BEB67A0E27B50BCD008B1750 /* ViewController.swift in Sources */,
+				BE2184A627BA0F7C008C3276 /* APIManager.swift in Sources */,
+				BE2184A827BA1426008C3276 /* MCQsAPI.swift in Sources */,
+				BEB67A3F27B50E1F008B1750 /* MCQTableViewCell.swift in Sources */,
 				BEB67A0A27B50BCC008B1750 /* AppDelegate.swift in Sources */,
-				BEB67A0C27B50BCD008B1750 /* SceneDelegate.swift in Sources */,
+				BEB67A3B27B50D83008B1750 /* MCQCollectionViewCell.swift in Sources */,
+				BE2184AA27BB91B9008C3276 /* SubmissionDatabaseObject.swift in Sources */,
+				BE2184CB27BBC1EF008C3276 /* SceneDelegate.swift in Sources */,
+				BE2184AC27BB9F3E008C3276 /* ResultsViewController.swift in Sources */,
+				BE2184C827BBC024008C3276 /* QuestionModel.swift in Sources */,
+				BE2184CD27BBC36C008C3276 /* UIVIewController + Alert.swift in Sources */,
+				BE2184C327BBBF7F008C3276 /* ViewModelError.swift in Sources */,
+				BE2184A427B973BD008C3276 /* EndPoint.swift in Sources */,
+				BE2184A027B970F6008C3276 /* ViewModel.swift in Sources */,
+				BE2184C527BBBFE7008C3276 /* QuestionsDto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +1146,7 @@
 		};
 		BEB67A3127B50BD0008B1750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C019A0BD13209120BD818CEA /* Pods-MCQs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +1175,7 @@
 		};
 		BEB67A3227B50BD0008B1750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D0EFCC37D6A64D2F1109D1 /* Pods-MCQs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +1204,7 @@
 		};
 		BEB67A3427B50BD0008B1750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7711D227EB8D02E515670A79 /* Pods-MCQsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +1225,7 @@
 		};
 		BEB67A3527B50BD0008B1750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5937C89D81129C09A955882E /* Pods-MCQsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +1246,7 @@
 		};
 		BEB67A3727B50BD0008B1750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F6737587325CE3E3BE2FBF /* Pods-MCQs-MCQsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +1265,7 @@
 		};
 		BEB67A3827B50BD0008B1750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009945653C9F8389C7CE54F2 /* Pods-MCQs-MCQsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

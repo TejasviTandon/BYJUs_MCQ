@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MCQCollectionViewCell" id="gTV-IL-0wX" customClass="MCQCollectionViewCell" customModule="MCQs" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="316" height="564"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="316" height="564"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="60" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="YTi-4E-G4s">
+                        <rect key="frame" x="16" y="72" width="284" height="476"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <outlet property="dataSource" destination="-1" id="SI1-7R-K9u"/>
+                            <outlet property="delegate" destination="-1" id="YPc-r9-lFW"/>
+                        </connections>
+                    </tableView>
+                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pll-El-25o" customClass="KatexMathView" customModule="MCQs" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="300" height="56"/>
+                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" priority="999" constant="56" id="Com-nD-dSn"/>
+                        </constraints>
+                        <wkWebViewConfiguration key="configuration">
+                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                            <wkPreferences key="preferences"/>
+                        </wkWebViewConfiguration>
+                    </wkWebView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Pll-El-25o" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="570-O6-wn3"/>
+                <constraint firstAttribute="trailing" secondItem="Pll-El-25o" secondAttribute="trailing" constant="8" id="8Jj-zt-BK1"/>
+                <constraint firstAttribute="trailing" secondItem="YTi-4E-G4s" secondAttribute="trailing" constant="16" id="8eg-JD-crY"/>
+                <constraint firstAttribute="bottom" secondItem="YTi-4E-G4s" secondAttribute="bottom" constant="16" id="DT4-q4-kny"/>
+                <constraint firstItem="YTi-4E-G4s" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="TwQ-xu-PG5"/>
+                <constraint firstItem="Pll-El-25o" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="UBv-68-ns0"/>
+                <constraint firstItem="YTi-4E-G4s" firstAttribute="top" secondItem="Pll-El-25o" secondAttribute="bottom" constant="8" id="dZB-zc-eE4"/>
+            </constraints>
+            <size key="customSize" width="316" height="564"/>
+            <connections>
+                <outlet property="katexMathView" destination="Pll-El-25o" id="Ka2-LJ-e8w"/>
+                <outlet property="katexViewHeight" destination="Com-nD-dSn" id="7vh-Bl-C9Z"/>
+                <outlet property="tableView" destination="YTi-4E-G4s" id="q47-if-ed3"/>
+            </connections>
+            <point key="canvasLocation" x="146.37681159420291" y="144.64285714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>
